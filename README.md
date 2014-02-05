@@ -1,4 +1,4 @@
 London Underground Sign Pure CSS
 ================================
 
-For the demo, check out http://lab.broekmedia.com/londonunderground
+For demo, please see http://lab.broekmedia.com/londonunderground
