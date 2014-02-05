@@ -1,0 +1,44 @@
+/* FONTS */
+@font-face {
+    font-family: 'london_tubenormal';
+    src: url('../font/london_underground-webfont.eot');
+    src: url('../font/london_underground-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/london_underground-webfont.woff') format('woff'),
+         url('../font/london_underground-webfont.ttf') format('truetype'),
+         url('../font/london_underground-webfont.svg#london_tubenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* LONDON UNDERGROUND LOGO */
+#london_underground { 
+	font-size: 43em; /* This controls the size. */ 
+	display: block; 
+	width: 0.4em;
+	height: 0.4em;
+	border: 0.11em solid #cc3333;
+	position: relative;
+	border-radius: 0.35em;
+	font-family: 'london_tubenormal';
+	/*margin-top: 0.1em;
+	margin-left: 0.3em;*/
+	margin: 20px auto 0 auto;
+}
+#london_underground:before {
+	width: 7.6em;
+	height: 0.94em;
+	background: #000099;
+	display: inline-block;
+	position: absolute;
+	content: "underground";
+	font-size: 0.088em;
+	border: 0 none;
+	margin: 0;
+	padding: 0.16em 0.41em 0.16em 0.41em;
+	top: 1.645em;
+	left: -1.93em;
+	color: #ffffff;
+	font-family: 'london_tubenormal';
+	text-transform: uppercase;
+	letter-spacing: -0.05em;
+}
