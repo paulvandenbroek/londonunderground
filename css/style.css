@@ -12,22 +12,20 @@
 
 /* LONDON UNDERGROUND LOGO */
 #london_underground { 
-	font-size: 43em; /* This controls the size. */ 
+	font-size: 43em; 
 	display: block; 
 	width: 0.4em;
 	height: 0.4em;
-	border: 0.11em solid #cc3333;
+	border: 0.11em solid #ff2d24;
 	position: relative;
 	border-radius: 0.35em;
 	font-family: 'london_tubenormal';
-	/*margin-top: 0.1em;
-	margin-left: 0.3em;*/
 	margin: 20px auto 0 auto;
 }
 #london_underground:before {
 	width: 7.6em;
 	height: 0.94em;
-	background: #000099;
+	background: #103992;
 	display: inline-block;
 	position: absolute;
 	content: "underground";
